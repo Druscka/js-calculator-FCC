@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-color: #AA4465;
+}
+
+#calculator {
+  height: 400px;
+  width: 350px;
+  background-color: #EDF0DA;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 4px 7px 37px 0px rgba(82,72,82,1);
+  margin: 50px auto;
+}
+
+#inputbox{
+  height: 80px;
+  width: 90%;
+  margin: 20px auto;
+  padding-right: 10px;
+  border: 2px solid #b4b39d;
+  border-radius: 10px;
+  background-color: #F0DFAD;
+}
+
+#active {
+  margin: 10px 0 0 0;
+  font-size: 40px;
+}
+
+
+#buttons {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  font-weight:bold;
+
+}
+
+button {
+  width: 50px;
+  height: 40px;
+  margin-left: 18px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color:#1a3f4d;
+  color: #fff;
+}
+
+#zero {
+  width: 136px;
+}
+
+#equals {
+  position: absolute;
+  margin-left: 27px;
+  margin-top: -40px;
+  height: 90px;
+}
+
+#red {
+  background-color:#cc0052;
+  color: #fff;
+}
